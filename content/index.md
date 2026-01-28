@@ -12,10 +12,10 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+Make a Difference with Excellence [Amazons]{.text-primary}.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+This document provides comprehensive information about Amazon as an enterprise, covering its infrastructure, architecture, systems, networking, core technologies, terminology, and related components. [Amazons LTD](https://amazons.co.ke).
 
 #links
   :::u-button
@@ -33,10 +33,10 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   color: neutral
   variant: outline
   size: xl
-  to: https://github.com/nuxt-ui-templates/docs
+  to: https://amazons.co.ke
   target: _blank
   ---
-  Use this template
+  View
   :::
 
 #default
