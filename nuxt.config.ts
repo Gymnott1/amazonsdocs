@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-og-image',
     'nuxt-llms',
+    '@nuxthq/studio',
     '@nuxtjs/mcp-toolkit'
   ],
 

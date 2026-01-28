@@ -25,6 +25,7 @@
     "nuxt": "^4.3.0",
     "nuxt-llms": "0.2.0",
     "nuxt-og-image": "^5.1.13",
+    "nuxt-studio": "1.2.0",
     "tailwindcss": "^4.1.18",
     "ufo": "^1.6.3",
     "unist-util-visit": "^5.1.0",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.13.0",
+    "@nuxthq/studio": "^2.2.1",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.4"
