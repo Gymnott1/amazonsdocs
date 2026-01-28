@@ -5,7 +5,7 @@
 Use this template to build your own documentation with [Nuxt UI](https://ui.nuxt.com) quickly.
 
 - [Live demo](https://docs-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation)
+- [Documentation](https://ui.nuxt.com/docs/introduction/overview/installation)
 
 <a href="https://docs-template.nuxt.dev/" target="_blank">
   <picture>
@@ -55,7 +55,7 @@ Locally preview production build:
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [deployment documentation](https://nuxt.com/docs/introduction/overview/deployment) for more information.
 
 ## Renovate integration
 

@@ -20,7 +20,7 @@ This document provides comprehensive information about Amazons as an enterprise,
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /introduction/overview
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
@@ -55,7 +55,7 @@ This document provides comprehensive information about Amazons as an enterprise,
   filename: amazons.config.rsc
   ---
 
-  ```ts [nuxt.config.ts]
+  ```bash [amazons.config.rsc]{icon="i-heroicons-server"}
     /ip address
     add address=192.168.88.1/24 interface=ether1 network=192.168.88.0 comment="WAN"
     add address=10.0.0.1/24 interface=ether2 network=10.0.0.0 comment="LAN"
