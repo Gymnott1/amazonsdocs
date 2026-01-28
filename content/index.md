@@ -71,7 +71,7 @@ This document provides comprehensive information about Amazons as an enterprise,
 
 ::u-page-section{class="dark:bg-neutral-950"}
 #title
-Enterprise Network Solutions
+Amazons Enterprise Network Solutions
 
 #links
   :::u-button
