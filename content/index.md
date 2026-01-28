@@ -43,30 +43,28 @@ This document provides comprehensive information about Amazon as an enterprise, 
   :::prose-pre
   ---
   code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
+    /ip address
+    add address=192.168.88.1/24 interface=ether1 network=192.168.88.0 comment="WAN"
+    add address=10.0.0.1/24 interface=ether2 network=10.0.0.0 comment="LAN"
 
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
+    /ip dns
+    set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+    /ip route
+    add distance=1 gateway=192.168.88.1
+  filename: amazons.config.rsc
   ---
 
   ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
+    /ip address
+    add address=192.168.88.1/24 interface=ether1 network=192.168.88.0 comment="WAN"
+    add address=10.0.0.1/24 interface=ether2 network=10.0.0.0 comment="LAN"
 
-    css: ['~/assets/css/main.css']
-  })
+    /ip dns
+    set servers=8.8.8.8,1.1.1.1 allow-remote-requests=yes
+
+    /ip route
+    add distance=1 gateway=192.168.88.1
   ```
   :::
 ::
